@@ -1,6 +1,8 @@
-package com.nexentry.backend.repository;
+package com.example.NexEntryBackend.repository;
 
-import com.nexentry.backend.model.User;
+
+
+import com.example.NexEntryBackend.model.User;
 import org.springframework.data.mongodb.repository.MongoRepository;
 
 public interface UserRepository extends MongoRepository<User, String> {
